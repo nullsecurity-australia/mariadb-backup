@@ -3,11 +3,11 @@ package storage
 import (
 	"fmt"
 
-	"github.com/databacker/mysql-backup/pkg/storage/credentials"
-	"github.com/databacker/mysql-backup/pkg/storage/file"
-	"github.com/databacker/mysql-backup/pkg/storage/s3"
-	"github.com/databacker/mysql-backup/pkg/storage/smb"
-	"github.com/databacker/mysql-backup/pkg/util"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/storage/credentials"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/storage/file"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/storage/s3"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/storage/smb"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/util"
 )
 
 func ParseURL(url string, creds credentials.Creds) (Storage, error) {

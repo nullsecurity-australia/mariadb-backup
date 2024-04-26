@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/databacker/mysql-backup/pkg/remote"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/remote"
 )
 
 type RemoteSpec struct {

@@ -3,7 +3,7 @@ package core
 import (
 	"time"
 
-	"github.com/databacker/mysql-backup/pkg/storage"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/storage"
 )
 
 type PruneOptions struct {

@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/databacker/mysql-backup/pkg/database/mysql"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/database/mysql"
 )
 
 type DumpOpts struct {

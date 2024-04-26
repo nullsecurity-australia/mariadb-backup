@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/databacker/mysql-backup/pkg/remote"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/remote"
 
 	"gopkg.in/yaml.v3"
 )

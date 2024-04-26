@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/databacker/mysql-backup/pkg/storage"
-	"github.com/databacker/mysql-backup/pkg/storage/credentials"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/storage"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/storage/credentials"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -8,10 +8,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/databacker/mysql-backup/pkg/archive"
-	"github.com/databacker/mysql-backup/pkg/compression"
-	"github.com/databacker/mysql-backup/pkg/database"
-	"github.com/databacker/mysql-backup/pkg/storage"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/archive"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/compression"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/database"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/storage"
 )
 
 const (
