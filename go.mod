@@ -1,4 +1,4 @@
-module github.com/databacker/mysql-backup
+module github.com/nullsecurity-australia/mariadb-backup
 
 go 1.21
 

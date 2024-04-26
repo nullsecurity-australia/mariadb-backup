@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/databacker/mysql-backup/cmd"
+	"github.com/nullsecurity-australia/mariadb-backup/cmd"
 )
 
 func main() {

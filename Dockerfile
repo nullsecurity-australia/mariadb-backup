@@ -1,10 +1,10 @@
-# mysql backup image
+# mariadb backup image
 FROM golang:1.21.5-alpine3.19 as build
 
-COPY . /src/mysql-backup
-WORKDIR /src/mysql-backup
+COPY . /src/mariadb-backup
+WORKDIR /src/mariadb-backup
 
-RUN mkdir /out && go build -o /out/mysql-backup .
+RUN mkdir /out && go build -o /out/mariadb-backup .
 
 # we would do from scratch, but we need basic utilities in order to support pre/post scripts
 FROM alpine:3.19
@@ -16,7 +16,7 @@ RUN addgroup -g 1005 appuser && \
     adduser -u 1005 -G appuser -D appuser
 USER appuser
 
-COPY --from=build /out/mysql-backup /mysql-backup
+COPY --from=build /out/mariadb-backup /mariadb-backup
 
 COPY entrypoint /entrypoint
 

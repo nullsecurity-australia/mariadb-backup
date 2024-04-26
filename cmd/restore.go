@@ -8,10 +8,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/databacker/mysql-backup/pkg/compression"
-	"github.com/databacker/mysql-backup/pkg/core"
-	"github.com/databacker/mysql-backup/pkg/storage"
-	"github.com/databacker/mysql-backup/pkg/util"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/compression"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/core"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/storage"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/util"
 )
 
 func restoreCmd(execs execs, cmdConfig *cmdConfiguration) (*cobra.Command, error) {

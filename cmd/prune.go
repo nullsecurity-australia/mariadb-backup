@@ -8,8 +8,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/databacker/mysql-backup/pkg/core"
-	"github.com/databacker/mysql-backup/pkg/storage"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/core"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/storage"
 )
 
 func pruneCmd(execs execs, cmdConfig *cmdConfiguration) (*cobra.Command, error) {

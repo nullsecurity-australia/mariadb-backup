@@ -6,4 +6,4 @@ if [ "$NICE" = "true" ]; then
     NICE_CMD="nice -n19 ionice -c2"
 fi
 
-${NICE_CMD} /mysql-backup $@
+${NICE_CMD} /mariadb-backup $@

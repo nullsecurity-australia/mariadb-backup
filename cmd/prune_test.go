@@ -4,9 +4,9 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/databacker/mysql-backup/pkg/core"
-	"github.com/databacker/mysql-backup/pkg/storage"
-	"github.com/databacker/mysql-backup/pkg/storage/file"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/core"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/storage"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/storage/file"
 	"github.com/go-test/deep"
 	"github.com/stretchr/testify/mock"
 )

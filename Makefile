@@ -30,13 +30,13 @@ unit_test:
 .PHONY: clean-test-stop clean-test-remove clean-test
 clean-test-stop:
 	@echo Kill Containers
-	$(eval IDS:=$(strip $(shell docker ps --filter label=mysqltest -q)))
+	$(eval IDS:=$(strip $(shell docker ps --filter label=mariadbtest -q)))
 	@if [ -n "$(IDS)" ]; then docker kill $(IDS); fi
 	@echo
 
 clean-test-remove:
 	@echo Remove Containers
-	$(eval IDS:=$(shell docker ps -a --filter label=mysqltest -q))
+	$(eval IDS:=$(shell docker ps -a --filter label=mariadbtest -q))
 	@if [ -n "$(IDS)" ]; then docker rm $(IDS); fi
 	@echo
 

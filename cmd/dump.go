@@ -8,9 +8,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/databacker/mysql-backup/pkg/compression"
-	"github.com/databacker/mysql-backup/pkg/core"
-	"github.com/databacker/mysql-backup/pkg/storage"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/compression"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/core"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/storage"
 )
 
 const (

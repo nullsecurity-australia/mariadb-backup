@@ -4,10 +4,10 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/databacker/mysql-backup/pkg/compression"
-	"github.com/databacker/mysql-backup/pkg/database"
-	"github.com/databacker/mysql-backup/pkg/storage"
-	"github.com/databacker/mysql-backup/pkg/storage/file"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/compression"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/database"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/storage"
+	"github.com/nullsecurity-australia/mariadb-backup/pkg/storage/file"
 )
 
 func TestRestoreCmd(t *testing.T) {
